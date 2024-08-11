@@ -57,7 +57,39 @@ box-shadow:  5px 5px 10px #c7c7c7,
 .pwd {
   background-image: url(./assets/images/pwd.png);
   background-position: center;
-  background-size: 50%;
+  background-size: 60%;
   background-repeat: no-repeat;
+  
+}
+
+.shifumi {
+  background-image: url(./assets/images/shifumi.png);
+  background-position: center;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  
+}
+
+.country {
+  background-image: url(./assets/images/country.png);
+  background-position: center;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  
+}
+
+.pizza {
+  background-image: url(./assets/images/k3pizza.png);
+  background-position: center;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  
+}
+.pokemon {
+  background-image: url(./assets/images/pokemon.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
   
 }

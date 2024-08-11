@@ -11,10 +11,11 @@ export default function Aboutme() {
        <div className="w-1/2 h-full flex flex-col items-end justify-center gap-3">
           <div className="flex flex-col gap-5 w-[60%] h-[60%]  justify-center" >
             <h1 className='font-bold text-2xl text-start'>Fullsatck Web Developer</h1>
-            <div className="flex">
-              <p>Hi, I'm Eric. A new React developer. I am based in Brussels, Belgium.
+            <div className="flex gap-2">
+              <p className=''>Hi, I'm Eric. A Web Developer. I am based in Brussels, Belgium 
+                <i className="fa-solid fa-location-dot text-red-600 pl-2 mb-2" ></i>
               </p>
-              <ImLocation className='text-red-600 mt-[2px]'/>
+              {/* <ImLocation className='text-red-600 mt-[2px] bg-green-200'/> */}
             </div>
             <div className="flex gap-3">
               <a href="https://www.linkedin.com/in/eric-delhaye-91a39b164/">

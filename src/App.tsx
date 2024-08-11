@@ -38,7 +38,6 @@ function App() {
 
       <section>
         <Projects/>
-
       </section>
 
       <section className='mt-[10rem]'>
