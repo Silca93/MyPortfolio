@@ -15,7 +15,7 @@ export default function Aboutme() {
               <p className=''>Hi, I'm Eric. A Web Developer. I am based in Brussels, Belgium 
                 <i className="fa-solid fa-location-dot text-red-600 pl-2 mb-2" ></i>
               </p>
-              {/* <ImLocation className='text-red-600 mt-[2px] bg-green-200'/> */}
+             
             </div>
             <div className="flex gap-3">
               <a href="https://www.linkedin.com/in/eric-delhaye-91a39b164/">

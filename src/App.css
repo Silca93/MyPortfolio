@@ -1,16 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Foldit:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
 
 body {
   overflow-x: hidden;
 }
 
 h1 {
-  font-family: "Archivo Black", sans-serif;
-  font-weight: 1200;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
   font-style: normal;
 }
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+h3 {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+ul {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+
+li {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 12px;
+}
+
+p {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 
 
+
+html {
+  scroll-behavior: smooth;
+}
 
 .fancy {
   margin: 10px 0 0 100px;
@@ -48,16 +83,16 @@ h1 {
 
 .circle {
   border-radius: 50%;
-background: #e0e0e0;
-box-shadow:  5px 5px 10px #c7c7c7,
-             -5px -5px 10px #f9f9f9;
+  background: #e0e0e0;
+  box-shadow:  5px 5px 10px #c7c7c7,
+  -5px -5px 10px #f9f9f9;
 }
 
 
 .pwd {
   background-image: url(./assets/images/pwd.png);
   background-position: center;
-  background-size: 60%;
+  background-size: 80%;
   background-repeat: no-repeat;
   
 }
@@ -65,7 +100,7 @@ box-shadow:  5px 5px 10px #c7c7c7,
 .shifumi {
   background-image: url(./assets/images/shifumi.png);
   background-position: center;
-  background-size: 70%;
+  background-size: 80%;
   background-repeat: no-repeat;
   
 }
@@ -81,15 +116,43 @@ box-shadow:  5px 5px 10px #c7c7c7,
 .pizza {
   background-image: url(./assets/images/k3pizza.png);
   background-position: center;
-  background-size: 70%;
+  background-size: 80%;
   background-repeat: no-repeat;
   
 }
 .pokemon {
   background-image: url(./assets/images/pokemon.png);
   background-position: center;
-  background-size: 100%;
+  background-size: 80%;
   background-repeat: no-repeat;
 
   
+}
+.booked {
+  background-image: url(./assets/images/booked.png);
+  background-position: center;
+  background-size: 80%;
+  background-repeat: no-repeat;
+
+  
+}
+
+
+.diagonal {
+  position: relative;
+  background-color: #F8F8FF;
+  
+
+}
+
+.diagonal::before {
+
+  content: "";
+  position: absolute;
+  left: -3rem;
+  top: 0;
+  bottom: -1px;
+  width: 5rem;
+  background-color: #dfdfe0; 
+  transform: skew(-45deg);
 }

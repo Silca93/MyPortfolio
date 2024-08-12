@@ -13,9 +13,9 @@ export default function Footer() {
             <h1 className='text-[#6F4E37] font-bold text-2xl'>Contact</h1>
             <div className="flex gap-2">
 
-            <h3>If you want to get in touch, just send me en email 
+            <h3>If you want to get in touch, just send me en email or hit me up on LinkedIn.
             </h3>
-            <ImArrowDownLeft className='mt-1 ml-1' />
+            <ImArrowDownLeft className='mt-1 ml-1 animate-pulse' />
             </div>
             <div className="flex w-[17rem] h-[3rem] ">
                 <div className="icon w-[4rem] h-full flex justify-center items-center ">
@@ -32,7 +32,7 @@ export default function Footer() {
             </div>
             
         </div>
-        <div className="down  w-full h-[10rem] flex bg-slate-400">
+        <div className="down  w-full h-[10rem] flex bg-[#dbdad8]">
             <div className="left w-1/2 h-full  flex justify-center items-center">
                <h3 className='font-bold text-xl'>All copyrights © reserved 2024</h3>
             </div>
