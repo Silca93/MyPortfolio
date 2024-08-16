@@ -33,32 +33,34 @@ export default function () {
       }, []);
 
   return (
-    <div className='w-full h-[10rem]  flex gap-4 justify-center items-center mb-3'>
+    <div className='w-full h-[10rem]  flex gap-4 justify-center items-center mb-3 max-[768px]:flex-col'>
         <div className="flex items-center justify-center gap-2">
 
         <h1 className='text-xl font-bold'>
             Skills 
         </h1>
-        <FaLongArrowAltRight className='animate-bounce  mt-2 ml-3' />
+        <div className="max-[768px]:transform  max-[768px]:rotate-45 ">
+          <FaLongArrowAltRight className='min-[768px]:animate-bounce  min-[768px]:mt-2 max-[768px]:mb-2 ml-3 transform rotate-45'/>
+        </div>
 
         </div>
         <div data-aos="fade-left" data-aos-delay="400"> {/* Adjust the offset value as needed */}
         <div className="flex gap-5 justify-center items-center ml-5 flex-wrap">
-          <FaHtml5 className='text-orange-600 text-2xl hover:scale-125 duration-200 ease-in-out' />
-          <IoLogoCss3 className='text-blue-600 text-2xl hover:scale-125 duration-200 ease-in-out' />
-          <FaSass className='text-pink-500 text-2xl hover:scale-125 duration-200 ease-in-out' />
-          <RiTailwindCssFill className='text-cyan-400 text-2xl hover:scale-125 duration-200 ease-in-out' />
-          <SiJavascript className='text-yellow-400 bg-black text-2xl hover:scale-125 duration-200 ease-in-out' />
-          <SiTypescript className='text-blue-400 text-2xl hover:scale-125 duration-200 ease-in-out' />
-          <FaPython className='text-2xl hover:scale-125 duration-200 ease-in-out' />
-          <SiDjango className='text-green-700 text-2xl hover:scale-125 duration-200 ease-in-out' />
-          <FaReact className='text-[#00B9E8] text-2xl hover:scale-125 duration-200 ease-in-out' />
-          <SiNextdotjs className='text-2xl hover:scale-125 duration-200 ease-in-out' />
-          <IoMdGitMerge className='text-orange-500 text-2xl hover:scale-125 duration-200 ease-in-out' />
-          <SiMysql className='text-cyan-700 text-[2.2rem] hover:scale-125 duration-200 ease-in-out' />
-          <TbBrandRedux  className='text-2xl hover:scale-125 duration-200 ease-in-out text-purple-600'/>
-          <FaNpm className='text-red-700 text-2xl hover:scale-125 duration-200 ease-in-out' />
-          <FaFigma className='text-2xl hover:scale-125 duration-200 ease-in-out' />
+          <FaHtml5 className='text-orange-600 text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
+          <IoLogoCss3 className='text-blue-600 text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
+          <FaSass className='text-pink-500 text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
+          <RiTailwindCssFill className='text-cyan-400 text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
+          <SiJavascript className='text-yellow-400 bg-black text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
+          <SiTypescript className='text-blue-400 text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
+          <FaPython className='text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
+          <SiDjango className='text-green-700 text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
+          <FaReact className='text-[#00B9E8] text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
+          <SiNextdotjs className='text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
+          <IoMdGitMerge className='text-orange-500 text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
+          <SiMysql className='text-cyan-700 text-[2.2rem] hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
+          <TbBrandRedux  className='text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl text-purple-600'/>
+          <FaNpm className='text-red-700 text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
+          <FaFigma className='text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
         </div>
       </div>
     </div>

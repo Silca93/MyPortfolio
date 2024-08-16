@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Foldit:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
 
+
 body {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
+  /* overflow: hidden; */
 }
 
 h1 {
@@ -48,7 +50,7 @@ html {
 }
 
 .fancy {
-  margin: 10px 0 0 100px;
+  margin: 10px 0 0 0px;
   border: 7px solid #e58d8d50;
   float: left;
   border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
@@ -70,6 +72,16 @@ html {
   }
 }
 
+/* @media(max-width:850px) {
+     .fancy {
+      width: 5rem;
+      height: 5rem;
+
+
+     }
+  
+} */
+
 
 .image {
   background-image: url(./assets/images/programming.jpg);
@@ -79,6 +91,13 @@ html {
   overflow: hidden;
   
   
+}
+
+
+@media (max-width:600px) {
+  .image {
+    
+  }
 }
 
 .circle {
@@ -138,14 +157,44 @@ html {
 }
 
 
-.diagonal {
+.pwddiagonal {
   position: relative;
-  background-color: #F8F8FF;
+  background-color: #f5f5f9;
+  
+
+}
+.rpsdiagonal {
+  position: relative;
+  background-color: #eff1f1;
+  
+
+}
+.countrydiagonal {
+  position: relative;
+  background-color: #f5f5f9;
+  
+
+}
+.k3diagonal {
+  position: relative;
+  background-color: #eff1f1;
+  
+
+}
+.pkmdiagonal {
+  position: relative;
+  background-color: #f5f5f9;
+  
+
+}
+.bookeddiagonal {
+  position: relative;
+  background-color: #eff1f1;
   
 
 }
 
-.diagonal::before {
+.diag::before {
 
   content: "";
   position: absolute;
@@ -156,3 +205,5 @@ html {
   background-color: #dfdfe0; 
   transform: skew(-45deg);
 }
+
+
