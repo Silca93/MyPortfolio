@@ -8,9 +8,9 @@ export default function Projects() {
   return (
     <div className='w-full'>
       {/* Title section */}
-      <div className="flex w-full h-[4rem]  justify-center items-center">
+      <div className="flex w-full h-[6rem]  justify-center items-center">
         <div className="left  w-full h-full flex justify-center   items-center">
-          <h1 className='font-2xl text-2xl font-bold text-[#6F4E37] min-[1200px]:mr-[35rem] pt-5' id="projects">My Projects</h1>
+          <h1 className='font-2xl text-2xl font-bold text-[#6F4E37] min-[1200px]:mr-[35rem] mt-[2rem] mb-[2rem]' id="projects">My Projects</h1>
         </div>
         
       </div>
@@ -18,7 +18,7 @@ export default function Projects() {
       {/* Password Generator */}
       <div className='w-full items-center flex justify-center'>
         <div className="flex max-[950px]:flex-col w-3/5 h-[35rem]  max-[950px]:h-auto items-center justify-center max-[900px]:w-full bg">
-          <div className="left  flex flex-col w-1/2 max-[950px]:w-full h-[30rem] max-[950px]:h-[25rem] justify-center items-center">
+          <div className="left py-[1rem]   flex flex-col w-1/2 max-[950px]:w-full h-[30rem] max-[950px]:h-[25rem] justify-center items-center">
            
             <div className='pwd w-full h-[30rem] flex justify-center items-center group'>
               <div className="overlay flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
@@ -67,7 +67,7 @@ export default function Projects() {
       </div>
       <p className='max-[950px]:text-center px-4'>This Rock Paper Scissors game is a sleek, responsive web application built with ReactJS and styled using Tailwind CSS. The game offers an interactive and visually appealing experience, where users can challenge the computer in a classic game of Rock, Paper, Scissors.</p>
     </div>
-    <div className="right  flex flex-col w-1/2 max-[950px]:w-full h-[30rem] max-[950px]:h-[25rem] justify-center items-center max-[950px]:order-1">
+    <div className="right py-[1rem] flex flex-col w-1/2 max-[950px]:w-full h-[30rem] max-[950px]:h-[25rem] justify-center items-center max-[950px]:order-1">
      
       <div className='shifumi w-full h-[30rem] flex justify-center items-center group'>
         <div className="overlay flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
@@ -84,7 +84,7 @@ export default function Projects() {
       {/* Country API */}
       <div className='w-full items-center flex justify-center'>
   <div className="flex max-[950px]:flex-col w-3/5 h-[35rem] max-[950px]:h-auto items-center justify-center max-[900px]:w-full bg">
-    <div className="left  flex flex-col w-1/2 max-[950px]:w-full h-[30rem] max-[950px]:h-[25rem] justify-center items-center">
+    <div className="left py-[1rem]  flex flex-col w-1/2 max-[950px]:w-full h-[30rem] max-[950px]:h-[25rem] justify-center items-center">
      
       <div className='country w-full h-[30rem] flex justify-center items-center group'>
         <div className="overlay flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
@@ -129,10 +129,10 @@ export default function Projects() {
       </div>
       <p className='max-[950px]:text-center px-4'>The Pizza Shop App is a ReactJS application that allows users to order pizzas effortlessly. It features a list of pizzas, a filter bar to search by toppings, detailed pages for each pizza, and a fully functional shopping cart for easy checkout. The app provides a smooth, user-friendly experience for ordering pizza.</p>
     </div>
-    <div className="right  flex flex-col w-1/2 max-[950px]:w-full h-[30rem] max-[950px]:h-[25rem] justify-center items-center max-[950px]:order-1">
+    <div className="right  py-[1rem] flex flex-col w-1/2 max-[950px]:w-full h-[30rem] max-[950px]:h-[25rem] justify-center items-center max-[950px]:order-1">
      
-      <div className='pizza w-full h-[30rem] flex justify-center items-center group'>
-        <div className="overlay flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
+      <div className='pizza  w-full h-[30rem] flex justify-center items-center group'>
+        <div className="overlay  flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
             <div  className="view-live flex w-[7rem] h-[2rem]  bg-[#F2F3F4] justify-center items-center rounded-md transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
               <a  href="https://silca93.github.io/K3Pizza/" className="view-live text-[#6F4E37]  text-xl transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">View Live</a>
             </div>
@@ -146,11 +146,11 @@ export default function Projects() {
 
       {/* Pokemon Battle */}
       <div className='w-full items-center flex justify-center'>
-  <div className="flex max-[950px]:flex-col w-3/5 h-[35rem] max-[950px]:h-auto items-center justify-center max-[900px]:w-full bg">
-    <div className="left  flex flex-col w-1/2 max-[950px]:w-full h-[30rem] max-[950px]:h-[25rem] justify-center items-center">
+  <div className="flex  max-[950px]:flex-col w-3/5 h-[35rem] max-[950px]:h-auto items-center justify-center max-[900px]:w-full bg">
+    <div className="left  py-[1rem]  flex flex-col w-1/2 max-[950px]:w-full h-[30rem] max-[950px]:h-[25rem] justify-center items-center">
     
       <div className='pokemon  w-full h-[30rem] relative group'>
-        <div className="overlay flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
+        <div className="overlay  flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
          <div  className="view-live flex w-[7rem] h-[2rem]  bg-[#F2F3F4] justify-center items-center rounded-md transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
             <a  href="https://silca93.github.io/PokemonBattle/" className="view-live text-[#6F4E37]  text-xl transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">View Live</a>
          </div>
@@ -194,7 +194,7 @@ export default function Projects() {
         </div>
         <div className="right flex flex-col w-1/2 max-[950px]:w-full h-[30rem] max-[950px]:h-[25rem] justify-center items-center max-[950px]:order-1">
           
-            <div className='booked w-full h-[30rem] flex justify-center items-center group'>
+            <div className='booked my-[1rem]  w-full h-[30rem] flex justify-center items-center group'>
               <div className="overlay flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
                 <div  className="view-live flex w-[7rem] h-[2rem]  bg-[#F2F3F4] justify-center items-center rounded-md transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
                   <a  href="https://final-project-eric.vercel.app/" className="view-live text-[#6F4E37]  text-xl transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">View Live</a>
