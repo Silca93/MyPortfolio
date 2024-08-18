@@ -1,7 +1,6 @@
-import React from 'react'
-import { FaHtml5, FaSass, FaPython, FaReact, FaNpm, FaFigma, FaLongArrowAltRight } from "react-icons/fa";
-import { IoLogoCss3, IoMdGitMerge } from "react-icons/io5";
-import { SiJavascript, SiTypescript, SiNextdotjs, SiDjango, SiMysql } from "react-icons/si";
+import { FaHtml5,  FaReact} from "react-icons/fa";
+import { IoLogoCss3} from "react-icons/io5";
+import { SiJavascript, SiNextdotjs } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { TbBrandRedux } from "react-icons/tb";
 

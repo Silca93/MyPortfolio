@@ -1,6 +1,4 @@
-
-import React from 'react';
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 
 import { FaHtml5 } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io5";

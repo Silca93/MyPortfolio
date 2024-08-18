@@ -1,4 +1,3 @@
-import React from 'react'
 import { ImArrowDownLeft } from "react-icons/im";
 import { IoIosMail } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa6";

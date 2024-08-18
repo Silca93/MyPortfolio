@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function Details() {
   return (
     <div className='w-full h-[40rem] pb-[3rem] bg-[#F8F8FF] flex max-[1100px]:flex-col max-[1100px]:justify-center max-[1100px]:items-center max-[1100px]:h-[50rem]'>
