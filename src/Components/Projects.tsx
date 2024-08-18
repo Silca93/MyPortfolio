@@ -20,10 +20,16 @@ export default function Projects() {
       <div className='w-full items-center flex justify-center'>
         <div className="flex max-[950px]:flex-col w-3/5 h-[35rem] max-[950px]:h-auto items-center justify-center max-[900px]:w-full bg">
           <div className="left  flex flex-col w-1/2 max-[950px]:w-full h-[30rem] max-[950px]:h-[25rem] justify-center items-center">
-            <div className='pwd w-full h-[30rem] flex justify-center items-center'></div>
-            <div className="w-[10rem] h-[3rem] rounded-lg flex justify-center items-center border-[2px] border-[#6F4E37]">
-              <a href="https://silca93.github.io/PasswordGenerator/" className='text-xl'>View Live</a>
+           
+            <div className='pwd w-full h-[30rem] flex justify-center items-center group'>
+              <div className="overlay flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
+                  <div className="view-live flex w-[7rem] h-[2rem]  bg-[#F2F3F4] justify-center items-center rounded-md transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                    <a  href="https://silca93.github.io/PasswordGenerator/" className="view-live text-[#6F4E37]  text-xl transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">View Live</a>
+                  </div>
+              </div>
             </div>
+
+            
       </div>
       <div className="right  b flex flex-col gap-5 w-1/2 max-[950px]:w-full h-[30rem] items-start max-[950px]:items-center max-[950px]:justify-start pl-3 justify-center">
         <div className="banner flex w-[24rem] h-[2.2rem] bg-[#dfdfe0] pl-2">
@@ -63,10 +69,15 @@ export default function Projects() {
       <p className='max-[950px]:text-center px-4'>This Rock Paper Scissors game is a sleek, responsive web application built with ReactJS and styled using Tailwind CSS. The game offers an interactive and visually appealing experience, where users can challenge the computer in a classic game of Rock, Paper, Scissors.</p>
     </div>
     <div className="right  flex flex-col w-1/2 max-[950px]:w-full h-[30rem] max-[950px]:h-[25rem] justify-center items-center max-[950px]:order-1">
-      <div className='shifumi w-full h-[30rem] flex justify-center items-center'></div>
-      <div className="w-[10rem] h-[3rem] rounded-lg flex justify-center items-center border-[2px] border-[#6F4E37]">
-        <a href="https://silca93.github.io/Countries_API/" className='text-xl'>View Live</a>
+     
+      <div className='shifumi w-full h-[30rem] flex justify-center items-center group'>
+        <div className="overlay flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
+            <div className="view-live flex w-[7rem] h-[2rem]  bg-[#F2F3F4] justify-center items-center rounded-md transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+              <a  href="https://silca93.github.io/ShiFuMi/" className="view-live text-[#6F4E37]  text-xl transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">View Live</a>
+            </div>
+        </div>
       </div>
+
     </div>
   </div>
 </div>
@@ -75,10 +86,16 @@ export default function Projects() {
       <div className='w-full items-center flex justify-center'>
   <div className="flex max-[950px]:flex-col w-3/5 h-[35rem] max-[950px]:h-auto items-center justify-center max-[900px]:w-full bg">
     <div className="left  flex flex-col w-1/2 max-[950px]:w-full h-[30rem] max-[950px]:h-[25rem] justify-center items-center">
-      <div className='country w-full h-[30rem] flex justify-center items-center'></div>
-      <div className="w-[10rem] h-[3rem] rounded-lg flex justify-center items-center border-[2px] border-[#6F4E37]">
-        <a href="https://silca93.github.io/Countries_API/" className='text-xl'>View Live</a>
+     
+      <div className='country w-full h-[30rem] flex justify-center items-center group'>
+        <div className="overlay flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
+            
+            <div className="view-live flex w-[7rem] h-[2rem] border-[1px] border-black  bg-[#F2F3F4] justify-center items-center rounded-md transform translate-y-full group-hover:translate-y-0 transition-transform duration-300"> 
+              <a  href="https://silca93.github.io/Countries_API/" className="view-live text-[#6F4E37]  text-xl transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">View Live</a>
+            </div>
+        </div>
       </div>
+     
     </div>
     <div className="right  b flex flex-col gap-5 w-1/2 max-[950px]:w-full h-[30rem] items-start max-[950px]:items-center max-[950px]:justify-start pl-3 justify-center">
       <div className="banner flex w-[20rem]  h-[2.2rem] bg-[#dfdfe0] pl-2">
@@ -114,10 +131,15 @@ export default function Projects() {
       <p className='max-[950px]:text-center px-4'>The Pizza Shop App is a ReactJS application that allows users to order pizzas effortlessly. It features a list of pizzas, a filter bar to search by toppings, detailed pages for each pizza, and a fully functional shopping cart for easy checkout. The app provides a smooth, user-friendly experience for ordering pizza.</p>
     </div>
     <div className="right  flex flex-col w-1/2 max-[950px]:w-full h-[30rem] max-[950px]:h-[25rem] justify-center items-center max-[950px]:order-1">
-      <div className='pizza w-full h-[30rem] flex justify-center items-center'></div>
-      <div className="w-[10rem] h-[3rem] rounded-lg flex justify-center items-center border-[2px] border-[#6F4E37]">
-        <a href="https://silca93.github.io/K3Pizza/" className='text-xl'>View Live</a>
+     
+      <div className='pizza w-full h-[30rem] flex justify-center items-center group'>
+        <div className="overlay flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
+            <div  className="view-live flex w-[7rem] h-[2rem]  bg-[#F2F3F4] justify-center items-center rounded-md transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+              <a  href="https://silca93.github.io/K3Pizza/" className="view-live text-[#6F4E37]  text-xl transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">View Live</a>
+            </div>
+        </div>
       </div>
+      
     </div>
   </div>
 </div>
@@ -125,12 +147,17 @@ export default function Projects() {
       <div className='w-full items-center flex justify-center'>
   <div className="flex max-[950px]:flex-col w-3/5 h-[35rem] max-[950px]:h-auto items-center justify-center max-[900px]:w-full bg">
     <div className="left  flex flex-col w-1/2 max-[950px]:w-full h-[30rem] max-[950px]:h-[25rem] justify-center items-center">
-      <div className='pokemon w-full h-[30rem] flex justify-center items-center'></div>
-      <div className="w-[10rem] h-[3rem] rounded-lg flex justify-center items-center border-[2px] border-[#6F4E37]">
-        <a href="https://silca93.github.io/PokemonBattle/" className='text-xl'>View Live</a>
+    
+      <div className='pokemon  w-full h-[30rem] relative group'>
+        <div className="overlay flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
+         <div  className="view-live flex w-[7rem] h-[2rem]  bg-[#F2F3F4] justify-center items-center rounded-md transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+            <a  href="https://silca93.github.io/PokemonBattle/" className="view-live text-[#6F4E37]  text-xl transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">View Live</a>
+         </div>
+        </div>
       </div>
+      
     </div>
-    <div className="right b flex flex-col gap-5 w-1/2 max-[950px]:w-full h-[30rem] items-start max-[950px]:items-center max-[950px]:justify-start pl-3 justify-center">
+    <div className="right  b flex flex-col gap-5 w-1/2 max-[950px]:w-full h-[30rem] items-start max-[950px]:items-center max-[950px]:justify-start pl-3 justify-center">
       <div className="banner flex w-[25rem]  h-[2.2rem] bg-[#dfdfe0] pl-2">
         <div className="left flex w-[21rem] max-[950px]:w-full">
           <h1 className='text-xl font-bold pt-1'>Pokemon Battle</h1>
@@ -165,10 +192,15 @@ export default function Projects() {
             <p className='max-[950px]:text-center px-4'>The Book eShop is a NextJS application that offers a seamless shopping experience for book lovers. Utilizing modern NextJS routing and API features, the app provides dynamic content and fast navigation. It's fully responsive, ensuring a smooth experience across all devices. The app includes a login system, allowing users to create accounts, browse, and purchase books with ease.</p>
         </div>
         <div className="right flex flex-col w-1/2 max-[950px]:w-full h-[30rem] max-[950px]:h-[25rem] justify-center items-center max-[950px]:order-1">
-            <div className='booked w-full h-[30rem] flex justify-center items-center'></div>
-            <div className="w-[10rem] h-[3rem] rounded-lg flex justify-center items-center border-[2px] border-[#6F4E37]">
-                <a href="https://silca93.github.io/K3Pizza/" className='text-xl'>View Live</a>
+          
+            <div className='booked w-full h-[30rem] flex justify-center items-center group'>
+              <div className="overlay flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
+                <div  className="view-live flex w-[7rem] h-[2rem]  bg-[#F2F3F4] justify-center items-center rounded-md transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                  <a  href="https://final-project-eric.vercel.app/" className="view-live text-[#6F4E37]  text-xl transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">View Live</a>
+                </div>
+              </div>
             </div>
+        
         </div>
     </div>
 </div>

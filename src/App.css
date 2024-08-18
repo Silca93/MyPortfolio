@@ -111,50 +111,112 @@ html {
 .pwd {
   background-image: url(./assets/images/pwd.png);
   background-position: center;
-  background-size: 80%;
+  background-size:contain;
   background-repeat: no-repeat;
-  
+  transition: 0.3s ease-in-out;
+  position: relative;
 }
+
+
+
+.pwd {
+  cursor: pointer;
+}
+
+
+
 
 .shifumi {
   background-image: url(./assets/images/shifumi.png);
   background-position: center;
-  background-size: 80%;
+  background-size:contain;
   background-repeat: no-repeat;
-  
+  transition: 0.3s ease-in-out;
+  position: relative;
 }
+
+.shifumi {
+  cursor: pointer;
+}
+
+
+
+
 
 .country {
   background-image: url(./assets/images/country.png);
   background-position: center;
-  background-size: 90%;
+  background-size:contain;
   background-repeat: no-repeat;
-  
+  transition: 0.3s ease-in-out;
+  position: relative;
 }
+
+.country:hover {
+  cursor: pointer;
+}
+
 
 .pizza {
   background-image: url(./assets/images/k3pizza.png);
   background-position: center;
-  background-size: 80%;
+  background-size:contain;
   background-repeat: no-repeat;
-  
+  transition: 0.3s ease-in-out;
+  position: relative;
 }
+
+.pizza:hover {
+  cursor: pointer;
+}
+
+
+
+
+
 .pokemon {
   background-image: url(./assets/images/pokemon.png);
   background-position: center;
-  background-size: 80%;
+  background-size:contain;
   background-repeat: no-repeat;
-
-  
+  transition: 0.3s ease-in-out;
+  position: relative;
 }
+
+.pokemon:hover {
+  cursor: pointer;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+
+}
+
+
+
+
 .booked {
   background-image: url(./assets/images/booked.png);
   background-position: center;
-  background-size: 80%;
+  background-size:contain;
   background-repeat: no-repeat;
-
-  
+  transition: 0.3s ease-in-out;
+  position: relative;
 }
+
+.booked:hover {
+  cursor: pointer;
+}
+
+
+
+
 
 
 .pwddiagonal {
