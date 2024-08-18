@@ -1,5 +1,3 @@
-import React from 'react'
-import { ImLocation } from "react-icons/im";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import avatar from './../assets/images/needygf.jpg'

@@ -16,7 +16,7 @@ export default function Footer() {
             </h3>
             <ImArrowDownLeft className='mt-1 ml-1 animate-pulse max-[550px]:hidden' />
             </div>
-            <div className="flex w-[17rem] h-[3rem] my-4">
+            <div className="flex w-[17rem] h-[3rem] my-4  mb-[2rem]">
                 <div className="icon w-[4rem] h-full flex justify-center items-center ">
                     <div className='circle w-[3rem] h-[3rem] rounded-full bg-[#FEFEFA] flex items-center justify-center'>
                         
@@ -27,7 +27,6 @@ export default function Footer() {
                 <div className="text w-[13rem] h-full flex justify-start items-center">
                     <a href="mailto:eric_delhaye@hotmail.com" className='hover:text-blue-600 cursor-pointer'>eric_delhaye@hotmail.com</a>
                 </div>
-
             </div>
             
         </div>
@@ -46,9 +45,7 @@ export default function Footer() {
             </div>
 
             </div>
-
         </div>
-
     </div>
 
   )

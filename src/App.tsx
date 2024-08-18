@@ -1,7 +1,3 @@
-import { useState, useEffect} from 'react'
-
-
-
 import Aboutme from './Components/Aboutme'
 import Techs from './Components/Techs'
 import Details from './Components/Details'

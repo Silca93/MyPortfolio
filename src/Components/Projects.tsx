@@ -17,7 +17,7 @@ export default function Projects() {
 
       {/* Password Generator */}
       <div className='w-full items-center flex justify-center'>
-        <div className="flex max-[950px]:flex-col w-3/5 h-[35rem] max-[950px]:h-auto items-center justify-center max-[900px]:w-full bg">
+        <div className="flex max-[950px]:flex-col w-3/5 h-[35rem]  max-[950px]:h-auto items-center justify-center max-[900px]:w-full bg">
           <div className="left  flex flex-col w-1/2 max-[950px]:w-full h-[30rem] max-[950px]:h-[25rem] justify-center items-center">
            
             <div className='pwd w-full h-[30rem] flex justify-center items-center group'>
@@ -30,7 +30,7 @@ export default function Projects() {
 
             
       </div>
-      <div className="right  b flex flex-col gap-5 w-1/2 max-[950px]:w-full h-[30rem] items-start max-[950px]:items-center max-[950px]:justify-start pl-3 justify-center">
+      <div className="right  pt-[2rem] flex flex-col gap-5 w-1/2 max-[950px]:w-full  h-[24rem] items-start max-[950px]:items-center max-[950px]:justify-start pl-3 justify-center">
         <div className="banner flex w-[24rem] h-[2.2rem] bg-[#dfdfe0] pl-2">
           <div className="left flex  w-[20rem] z-50">
             <h1 className='text-lg font-bold pt-1'>Password Generator</h1>
@@ -43,10 +43,10 @@ export default function Projects() {
           <div className="diag pwddiagonal  w-[4rem] h-full" ></div>
         </div>
         <p className='max-[950px]:text-center px-4'>A versatile password generator built with vanilla JavaScript that lets users create secure passwords. Users can customize their password by:</p>
-        <li>Choosing the length of the password</li>
-        <li>Including numbers</li>
-        <li>Including special characters</li>
-        <li>Restricting or allowing the use of capital letters</li>
+        <li className="ml-4">Choosing the length of the password</li>
+        <li className="ml-4">Including numbers</li>
+        <li className="ml-4">Including special characters</li>
+        <li className="ml-4">Restricting or allowing the use of capital letters</li>
       </div>
     </div>
     </div>
@@ -54,9 +54,9 @@ export default function Projects() {
       {/* Rock Paper Scissors */}
       <div className='w-full items-center flex justify-center bg-[#eff1f1]'>
   <div className="flex max-[950px]:flex-col w-3/5 h-[35rem] max-[950px]:h-auto items-center justify-center max-[900px]:w-full bg">
-    <div className="left  b flex flex-col gap-5 w-1/2 max-[950px]:w-full h-[30rem] items-start max-[950px]:items-center max-[950px]:justify-start pl-3 justify-center max-[950px]:order-2">
-      <div className="banner flex w-[25rem] h-[2.2rem] bg-[#dfdfe0] pl-2">
-        <div className="left flex w-[21rem] max-[950px]:w-full">
+    <div className="left pt-[2rem] b flex flex-col gap-5 w-1/2 max-[950px]:w-full h-[24rem] items-start max-[950px]:items-center max-[950px]:justify-start pl-3 justify-center max-[950px]:order-2">
+      <div className="banner flex w-[24rem] h-[2.2rem] bg-[#dfdfe0] pl-2">
+        <div className="left flex w-[20rem] max-[950px]:w-full">
           <h1 className='text-xl font-bold pt-1'>Rock Paper Scissors</h1>
           <div data-aos="zoom-in" data-aos-duration="500" className='flex gap-3 pl-4'>
             <FaReact className='text-[#00B9E8] text-2xl hover:scale-125 duration-200 ease-in-out mt-[5px]' />
@@ -96,7 +96,7 @@ export default function Projects() {
       </div>
      
     </div>
-    <div className="right  b flex flex-col gap-5 w-1/2 max-[950px]:w-full h-[30rem] items-start max-[950px]:items-center max-[950px]:justify-start pl-3 justify-center">
+    <div className="right pt-[2rem] flex flex-col gap-5 w-1/2 max-[950px]:w-full h-[24rem]  items-start max-[950px]:items-center max-[950px]:justify-start pl-3 justify-center">
       <div className="banner flex w-[20rem]  h-[2.2rem] bg-[#dfdfe0] pl-2">
         <div className="left flex w-[16rem] max-[950px]:w-full">
           <h1 className='text-xl font-bold pt-1'>Country API</h1>
@@ -115,7 +115,7 @@ export default function Projects() {
       {/* K3 Pizza */}
       <div className='w-full items-center flex justify-center bg-[#eff1f1]'>
   <div className="flex max-[950px]:flex-col w-3/5 h-[35rem] max-[950px]:h-auto items-center justify-center max-[900px]:w-full bg">
-    <div className="left  b flex flex-col gap-5 w-1/2 max-[950px]:w-full h-[30rem] items-start max-[950px]:items-center max-[950px]:justify-start pl-3 justify-center max-[950px]:order-2">
+    <div className="left pt-[2rem] flex flex-col gap-5 w-1/2 max-[950px]:w-full  h-[24rem] items-start max-[950px]:items-center max-[950px]:justify-start pl-3 justify-center max-[950px]:order-2">
       <div className="banner flex w-[20rem] h-[2.2rem] bg-[#dfdfe0] pl-2">
         <div className="left flex w-[16rem] max-[950px]:w-full">
           <h1 className='text-xl font-bold pt-1'>K3 Pizza</h1>
@@ -142,6 +142,8 @@ export default function Projects() {
     </div>
   </div>
 </div>
+
+
       {/* Pokemon Battle */}
       <div className='w-full items-center flex justify-center'>
   <div className="flex max-[950px]:flex-col w-3/5 h-[35rem] max-[950px]:h-auto items-center justify-center max-[900px]:w-full bg">
@@ -156,9 +158,9 @@ export default function Projects() {
       </div>
       
     </div>
-    <div className="right  b flex flex-col gap-5 w-1/2 max-[950px]:w-full h-[30rem] items-start max-[950px]:items-center max-[950px]:justify-start pl-3 justify-center">
-      <div className="banner flex w-[25rem]  h-[2.2rem] bg-[#dfdfe0] pl-2">
-        <div className="left flex w-[21rem] max-[950px]:w-full">
+    <div className="right  pt-[2rem] flex flex-col gap-5 w-1/2 max-[950px]:w-full h-[24rem] items-start max-[950px]:items-center max-[950px]:justify-start pl-3 justify-center">
+      <div className="banner flex w-[24rem]  h-[2.2rem] bg-[#dfdfe0] pl-2">
+        <div className="left flex w-[20rem] max-[950px]:w-full">
           <h1 className='text-xl font-bold pt-1'>Pokemon Battle</h1>
           <div data-aos="zoom-in" data-aos-duration="500" className='flex gap-3 pl-4'>
             <FaHtml5 className='text-orange-600 text-2xl hover:scale-125 duration-200 ease-in-out mt-[5px]' />
@@ -176,7 +178,7 @@ export default function Projects() {
       {/* Booked */}
       <div className='w-full items-center flex justify-center bg-[#eff1f1]'>
     <div className="flex max-[950px]:flex-col w-3/5 h-[35rem] max-[950px]:h-auto items-center justify-center max-[900px]:w-full">
-        <div className="left  flex flex-col gap-5 w-1/2 max-[950px]:w-full h-[30rem] items-start max-[950px]:items-center max-[950px]:justify-start pl-3 justify-center max-[950px]:order-2">
+        <div className="left pt-[2rem] flex flex-col gap-5 w-1/2 max-[950px]:w-full h-[24rem] items-start max-[950px]:items-center max-[950px]:justify-start pl-3 justify-center max-[950px]:order-2">
             <div className="banner flex w-[20rem] h-[2.2rem] bg-[#dfdfe0] pl-2">
                 <div className="left flex w-[16rem] max-[950px]:w-full">
                     <h1 className='text-xl font-bold pt-1'>Booked</h1>
