@@ -31,6 +31,7 @@ function App() {
       <section className='' id="aboutme">
         <Details/>
       </section>
+      
 
       <section className=''>
         <Projects/>
