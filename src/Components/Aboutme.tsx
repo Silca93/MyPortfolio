@@ -26,7 +26,7 @@ export default function Aboutme() {
           </div>
         </div>
         <div className="w-1/2 h-full  flex justify-start items-center  max-[660px]:items-center ">
-          <div className="fancy w-[20rem] h-[20rem] min-[660px]:ml-[70px]  max-[900px]:w-[15rem] max-[900px]:h-[15rem]  max-[660px]:w-full  max-[660px]:h-[15rem]    border-[5px] border-gray-300" style={{ backgroundImage: `url(${avatar})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+          <div className="fancy w-[20rem] h-[20rem] min-[660px]:ml-[70px]  max-[900px]:w-[15rem] max-[900px]:h-[15rem]  max-[660px]:w-full  max-[660px]:h-[15rem]    border-[5px] border-gray-200" style={{ backgroundImage: `url(${avatar})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
           </div>
         </div>
     </div>

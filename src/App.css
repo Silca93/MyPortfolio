@@ -202,17 +202,20 @@ html {
 
 
 .booked {
+  position: relative;
   background-image: url(./assets/images/booked.png);
   background-position: center;
   background-size:contain;
   background-repeat: no-repeat;
   transition: 0.3s ease-in-out;
-  position: relative;
+
 }
 
 .booked:hover {
   cursor: pointer;
 }
+
+
 
 
 

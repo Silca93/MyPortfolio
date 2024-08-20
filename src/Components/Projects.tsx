@@ -16,11 +16,12 @@ export default function Projects() {
       </div>
 
       {/* Password Generator */}
+      
       <div className='w-full items-center flex justify-center'>
         <div className="flex max-[950px]:flex-col w-3/5 h-[35rem]  max-[950px]:h-auto items-center justify-center max-[900px]:w-full bg">
           <div className="left py-[1rem]   flex flex-col w-1/2 max-[950px]:w-full h-[30rem] max-[950px]:h-[25rem] justify-center items-center">
-           
-            <div className='pwd w-full h-[30rem] flex justify-center items-center group'>
+     
+            <div className='pwd  w-full h-[30rem] flex justify-center items-center group'>
               <div className="overlay flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
                   <div className="view-live flex w-[7rem] h-[2rem]  bg-[#F2F3F4] justify-center items-center rounded-md transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
                     <a  href="https://silca93.github.io/PasswordGenerator/" className="view-live text-[#6F4E37]  text-xl transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">View Live</a>
@@ -68,7 +69,7 @@ export default function Projects() {
       <p className='max-[950px]:text-center px-4'>This Rock Paper Scissors game is a sleek, responsive web application built with ReactJS and styled using Tailwind CSS. The game offers an interactive and visually appealing experience, where users can challenge the computer in a classic game of Rock, Paper, Scissors.</p>
     </div>
     <div className="right py-[1rem] flex flex-col w-1/2 max-[950px]:w-full h-[30rem] max-[950px]:h-[25rem] justify-center items-center max-[950px]:order-1">
-     
+    
       <div className='shifumi w-full h-[30rem] flex justify-center items-center group'>
         <div className="overlay flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
             <div className="view-live flex w-[7rem] h-[2rem]  bg-[#F2F3F4] justify-center items-center rounded-md transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
