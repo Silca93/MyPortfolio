@@ -1,19 +1,18 @@
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
-import avatar from './../assets/images/needygf.jpg'
+import avatar from './../assets/images/compress.jpg'
 
 
 export default function Aboutme() {
   return (
     <div className='w-full h-[40rem] flex max-[660px]:flex-col  max-[660px]:items-center'>
-       <div className="w-1/2 h-full flex flex-col items-end justify-center gap-3  max-[660px]:items-center">
+        <div className="w-1/2 h-full flex flex-col items-end justify-center gap-3  max-[660px]:items-center">
           <div className="flex flex-col gap-5 w-[60%] h-[60%]  justify-center" >
             <h1 className='font-bold text-2xl text-start'>Fullstack Web Developer</h1>
             <div className="flex gap-2">
               <p className=''>Hi, I'm Eric. A Web Developer. I am based in Brussels, Belgium 
                 <i className="fa-solid fa-location-dot text-red-600 pl-2 mb-2" ></i>
               </p>
-             
             </div>
             <div className="flex gap-3">
               <a href="https://www.linkedin.com/in/eric-delhaye-91a39b164/">
