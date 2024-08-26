@@ -5,7 +5,7 @@ import avatar from './../assets/images/compress.jpg'
 
 export default function Aboutme() {
   return (
-    <div className='w-full h-[40rem] flex max-[660px]:flex-col  max-[660px]:items-center'>
+    <div className='w-full h-[40rem] flex max-[660px]:flex-col  max-[660px]:items-center' id="container">
         <div className="w-1/2 h-full flex flex-col items-end justify-center gap-3  max-[660px]:items-center">
           <div className="flex flex-col gap-5 w-[60%] h-[60%]  justify-center" >
             <h1 className='font-bold text-2xl text-start'>Fullstack Web Developer</h1>
