@@ -20,7 +20,7 @@ function App() {
 
   return (
     
-    <div  className='w-screen bg-gradient-to-b from-[#F2F3F4] to-[#F8F8FF] overflow-x-hidden ' >
+    <div  className='w-vw bg-gradient-to-b from-[#F2F3F4] to-[#F8F8FF] overflow-x-hidden' >
         <section className="w-full h-[3rem] flex justify-between bg-[#dbdad8] items-center " id="home">
           <h1 className='ml-5  text-xl font-bold text-[#6F4E37]'>Silca.dev</h1>
           <li className='flex gap-2 mr-7'>
@@ -45,7 +45,7 @@ function App() {
       </section>
       
 
-      <section className=''>
+      <section className='overflow-x-hidden'>
         <Projects/>
       </section>
 
