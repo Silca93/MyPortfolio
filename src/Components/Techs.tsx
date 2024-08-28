@@ -16,6 +16,8 @@ import { SiDjango } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 import { TbBrandRedux } from "react-icons/tb";
 import { FaLongArrowAltRight } from "react-icons/fa";
+import { BsBootstrapFill } from "react-icons/bs";
+
 
 
 import AOS from 'aos';
@@ -47,6 +49,7 @@ export default function () {
           <FaHtml5 className='text-orange-600 text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
           <IoLogoCss3 className='text-blue-600 text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
           <FaSass className='text-pink-500 text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
+          <BsBootstrapFill className='text-purple-500 text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl'/>
           <RiTailwindCssFill className='text-cyan-400 text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
           <SiJavascript className='text-yellow-400 bg-black text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
           <SiTypescript className='text-blue-400 text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
