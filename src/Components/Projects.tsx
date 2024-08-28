@@ -176,7 +176,7 @@ export default function Projects() {
         </div>
         <div className="diag pkmdiagonal w-[4rem] h-full"></div>
       </div>
-      <p className='max-[950px]:text-center px-4'>The Pokémon Battle Game is a classic Pokémon showdown between Venusaur and Lapras, created with vanilla JavaScript. Designed for a 16:9 aspect ratio screen, this game replicates the classic turn-based battle system, the game captures the nostalgic feel of original Pokémon battles.</p>
+      <p className='max-[950px]:text-center px-4'>The Pokémon Battle Game is a classic Pokémon showdown between Venusaur and Lapras, created with vanilla JavaScript. <span className="text-red-600 font-bold">Designed for a Desktop aspect ratio</span>  this game replicates the classic turn-based battle system, the game captures the nostalgic feel of original Pokémon battles.</p>
     </div>
   </div>
 </div>
