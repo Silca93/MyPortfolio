@@ -36,7 +36,8 @@ export default function Projects() {
       <div className='benchmark w-full h-[30rem] flex justify-center items-center group '>
         <div className="overlay flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
             <div className="view-live flex w-[7rem] h-[2rem]  bg-[#F2F3F4] justify-center items-center rounded-md transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-              <a  href="https://silca93.github.io/Reflexes/" className="view-live text-[#6F4E37]  text-xl transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">View Live</a>
+              <a  href="https://silca93.github.io/Reflexes/"  target="_blank" 
+                  rel="noopener noreferrer" className="view-live text-[#6F4E37]  text-xl transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">View Live</a>
             </div>
         </div>
       </div>
@@ -56,7 +57,8 @@ export default function Projects() {
             <div className='pwd  w-full h-[30rem] flex justify-center items-center group'>
               <div className="overlay flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
                   <div className="view-live flex w-[7rem] h-[2rem]  bg-[#F2F3F4] justify-center items-center rounded-md transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                    <a  href="https://silca93.github.io/PasswordGenerator/" className="view-live text-[#6F4E37]  text-xl transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">View Live</a>
+                    <a  href="https://silca93.github.io/PasswordGenerator/"  target="_blank" 
+                      rel="noopener noreferrer" className="view-live text-[#6F4E37]  text-xl transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">View Live</a>
                   </div>
               </div>
             </div>
@@ -105,7 +107,8 @@ export default function Projects() {
       <div className='shifumi w-full h-[30rem] flex justify-center items-center group'>
         <div className="overlay flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
             <div className="view-live flex w-[7rem] h-[2rem]  bg-[#F2F3F4] justify-center items-center rounded-md transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-              <a  href="https://silca93.github.io/ShiFuMi/" className="view-live text-[#6F4E37]  text-xl transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">View Live</a>
+              <a  href="https://silca93.github.io/ShiFuMi/"  target="_blank" 
+                  rel="noopener noreferrer" className="view-live text-[#6F4E37]  text-xl transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">View Live</a>
             </div>
         </div>
       </div>
@@ -124,7 +127,8 @@ export default function Projects() {
         <div className="overlay flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
             
             <div className="view-live flex w-[7rem] h-[2rem] border-[1px] border-black  bg-[#F2F3F4] justify-center items-center rounded-md transform translate-y-full group-hover:translate-y-0 transition-transform duration-300"> 
-              <a  href="https://silca93.github.io/Countries_API/" className="view-live text-[#6F4E37]  text-xl transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">View Live</a>
+              <a  href="https://silca93.github.io/Countries_API/"  target="_blank" 
+                  rel="noopener noreferrer" className="view-live text-[#6F4E37]  text-xl transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">View Live</a>
             </div>
         </div>
       </div>
@@ -171,7 +175,8 @@ export default function Projects() {
       <div className='pizza  w-full h-[30rem] flex justify-center items-center group'>
         <div className="overlay  flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
             <div  className="view-live flex w-[7rem] h-[2rem]  bg-[#F2F3F4] justify-center items-center rounded-md transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-              <a  href="https://silca93.github.io/K3Pizza/" className="view-live text-[#6F4E37]  text-xl transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">View Live</a>
+              <a  href="https://silca93.github.io/K3Pizza/"  target="_blank" 
+                  rel="noopener noreferrer" className="view-live text-[#6F4E37]  text-xl transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">View Live</a>
             </div>
         </div>
       </div>
@@ -190,7 +195,8 @@ export default function Projects() {
       <div className='pokemon  w-full h-[30rem] relative group'>
         <div className="overlay  flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
          <div  className="view-live flex w-[7rem] h-[2rem]  bg-[#F2F3F4] justify-center items-center rounded-md transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-            <a  href="https://silca93.github.io/PokemonBattle/" className="view-live text-[#6F4E37]  text-xl transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">View Live</a>
+            <a  href="https://silca93.github.io/PokemonBattle/"  target="_blank" 
+                rel="noopener noreferrer" className="view-live text-[#6F4E37]  text-xl transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">View Live</a>
          </div>
         </div>
       </div>
@@ -235,7 +241,8 @@ export default function Projects() {
             <div className='booked my-[1rem]  w-full h-[30rem] flex justify-center items-center group'>
               <div className="overlay flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
                 <div  className="view-live flex w-[7rem] h-[2rem]  bg-[#F2F3F4] justify-center items-center rounded-md transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                  <a  href="https://final-project-eric.vercel.app/" className="view-live text-[#6F4E37]  text-xl transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">View Live</a>
+                  <a  href="https://final-project-eric.vercel.app/"  target="_blank" 
+                      rel="noopener noreferrer" className="view-live text-[#6F4E37]  text-xl transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">View Live</a>
                 </div>
               </div>
             </div>
