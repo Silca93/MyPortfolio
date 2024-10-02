@@ -15,12 +15,44 @@ export default function Projects() {
         
       </div>
 
+    {/* //Benchmark// */}
+      <div className='w-full items-center flex justify-center bg-[#F2F3F4]'>
+  <div className="flex max-[950px]:flex-col w-3/5 h-[35rem] max-[950px]:h-auto items-center justify-center max-[900px]:w-full bg">
+    <div className="left pt-[2rem] b flex flex-col gap-5 w-1/2 max-[950px]:w-full h-[24rem] items-start max-[950px]:items-center max-[950px]:justify-start pl-3 justify-center max-[950px]:order-2">
+      <div className="banner flex w-[24rem] h-[2.2rem] bg-[#dfdfe0] pl-2">
+        <div className="left flex w-[20rem] max-[950px]:w-full">
+          <h1 className='text-xl font-bold pt-1'>Benchmark</h1>
+          <div data-aos="zoom-in" data-aos-duration="500" className='flex gap-3 pl-4'>
+            <FaReact className='text-[#00B9E8] text-2xl hover:scale-125 duration-200 ease-in-out mt-[5px]'/>
+            <RiTailwindCssFill className='text-cyan-400 text-2xl hover:scale-125 duration-200 ease-in-out mt-[5px]'/>
+          </div>
+        </div>
+        <div className="diag rpsdiagonal w-[4rem] h-full"></div>
+      </div>
+      <p className='max-[950px]:text-center px-4'>This reflex test app is a fun, interactive web game made with ReactJS and styled using Tailwind CSS. Players have to react quickly as the lights change from red to green, testing their reflexes against the clock!</p>
+    </div>
+    <div className="right py-[1rem] flex flex-col w-1/2 max-[950px]:w-full h-[30rem] max-[950px]:h-[25rem] justify-center items-center max-[950px]:order-1">
+    
+      <div className='benchmark w-full h-[30rem] flex justify-center items-center group '>
+        <div className="overlay flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
+            <div className="view-live flex w-[7rem] h-[2rem]  bg-[#F2F3F4] justify-center items-center rounded-md transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+              <a  href="https://silca93.github.io/Reflexes/" className="view-live text-[#6F4E37]  text-xl transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">View Live</a>
+            </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div className="layer ah"></div>
+
+
+
       {/* Password Generator */}
       
       <div className='w-full items-center flex justify-center'>
         <div className="flex max-[950px]:flex-col w-3/5 h-[35rem]  max-[950px]:h-auto items-center justify-center max-[900px]:w-full bg">
           <div className="left py-[1rem]   flex flex-col w-1/2 max-[950px]:w-full h-[30rem] max-[950px]:h-[25rem] justify-center items-center">
-     
             <div className='pwd  w-full h-[30rem] flex justify-center items-center group'>
               <div className="overlay flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
                   <div className="view-live flex w-[7rem] h-[2rem]  bg-[#F2F3F4] justify-center items-center rounded-md transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">

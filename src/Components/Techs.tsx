@@ -17,6 +17,14 @@ import { SiMysql } from "react-icons/si";
 import { TbBrandRedux } from "react-icons/tb";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { BsBootstrapFill } from "react-icons/bs";
+import { SiPhp } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
+import { FaNode } from "react-icons/fa6";
+
+
+
+
 
 
 
@@ -57,10 +65,14 @@ export default function () {
           <SiDjango className='text-green-700 text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
           <FaReact className='text-[#00B9E8] text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
           <SiNextdotjs className='text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
-          <IoMdGitMerge className='text-orange-500 text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
+          <SiPhp className='text-[#717dd5]  text-[2.3rem] hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
+          <SiMongodb  className='text-[#39a746]  text-3xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
+          <SiExpress className='bg-white rounded-full p-1 text-3xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
+          <FaNode className=' bg-white rounded-full p-1 text-3xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
           <SiMysql className='text-cyan-700 text-[2.2rem] hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
           <TbBrandRedux  className='text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl text-purple-600'/>
           <FaNpm className='text-red-700 text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
+          <IoMdGitMerge className='text-orange-500 text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
           <FaFigma className='text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
         </div>
       </div>
