@@ -7,7 +7,7 @@ import { FaGithub } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <div className='w-full  pt-[5rem]'>
+    <div className='w-full  pt-[5rem] bg-[#e9eaeb]'>
         <div className="up w-full h-[15rem] max-[768px]:h-[10rem]  flex flex-col gap-3 items-center justify-center" >
             <h1 className='text-[#6F4E37] font-bold text-2xl'>Contact</h1>
             <div className="flex gap-2 flex-wrap">

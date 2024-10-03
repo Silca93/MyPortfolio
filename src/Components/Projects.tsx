@@ -3,6 +3,10 @@ import { IoLogoCss3} from "react-icons/io5";
 import { SiJavascript, SiNextdotjs } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { TbBrandRedux } from "react-icons/tb";
+// import { DiMongodb } from "react-icons/di";
+import { SiMongodb } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
+import { FaNode } from "react-icons/fa6";
 
 export default function Projects() {
   return (
@@ -249,6 +253,42 @@ export default function Projects() {
         </div>
     </div>
 </div>
+<div className="layer2 ah2"></div>
+
+
+{/* Workout Pal */}
+<div className='w-full items-center flex justify-center'>
+  <div className="flex  max-[950px]:flex-col w-3/5 h-[35rem] max-[950px]:h-auto items-center justify-center max-[900px]:w-full bg">
+    <div className="left  py-[1rem]  flex flex-col w-1/2 max-[950px]:w-full h-[30rem] max-[950px]:h-[25rem] justify-center items-center">
+    
+      <div className='workoutPal  w-full h-[30rem] relative group'>
+        <div className="overlay  flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
+         <div  className="view-live flex w-[7rem] h-[2rem]  bg-[#F2F3F4] justify-center items-center rounded-md transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+            <a  href="https://workoutpal-frontend-axz7.onrender.com/"  target="_blank" 
+                rel="noopener noreferrer" className="view-live text-[#6F4E37]  text-xl transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">View Live</a>
+         </div>
+        </div>
+      </div>
+      
+    </div>
+    <div className="right  -500 pt-[2rem] flex flex-col gap-5 w-1/2 max-[950px]:w-full h-[24rem] max-[768px]:h-[22rem] items-start max-[950px]:items-center max-[950px]:justify-start pl-3 justify-center">
+      <div className="banner flex w-[24rem]  h-[2.2rem] bg-[#dfdfe0] pl-2">
+        <div className="left flex w-[22rem] max-[950px]:w-full">
+          <h1 className='text-xl font-bold pt-1'>Workout Pal</h1>
+          <div data-aos="zoom-in" data-aos-duration="500" className='flex gap-3 pl-4 items-center'>
+              <SiMongodb  className='text-[#39a746]  text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
+              <SiExpress className='bg-white rounded-full p-1 text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
+              <FaNode className=' bg-white rounded-full p-1 text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
+              <FaReact className='text-[#00B9E8] text-2xl hover:scale-125 duration-200 ease-in-out mt-[5px]' />
+          </div>
+        </div>
+        <div className="diag pkmdiagonal w-[4rem] h-full"></div>
+      </div>
+      <p className='max-[950px]:text-center px-4'>Workout Pal is a fitness tracking app built with the MERN stack (<b>MongoDB, Express, React, and Node.js).</b> It helps users log their workouts, it's user-friendly interface allows you to create and account, login and get going. The app is hosted on render.com using the free tier service. Which might take up to <span className="text-red-500">30 seconds</span> to launch if you try signing up or loging in.</p>
+    </div>
+  </div>
+</div>
+
 
 
     </div>
