@@ -184,7 +184,7 @@ html {
 
 
 .pizza {
-  background-image: url(./assets/images/k3pizza.png);
+  background-image: url(./assets/images/Dashboard.png);
   background-position: center;
   background-size:contain;
   background-repeat: no-repeat;
@@ -302,7 +302,7 @@ html {
   position: absolute;
   left: -3rem;
   top: 0;
-  bottom: -1px;
+  bottom: 0px;
   width: 5rem;
   background-color: #dfdfe0; 
   transform: skew(-45deg);

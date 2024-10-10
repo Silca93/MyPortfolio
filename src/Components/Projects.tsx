@@ -156,30 +156,35 @@ export default function Projects() {
 <div className="reverseLayer ah3"></div>
 
 
-      {/* K3 Pizza */}
+      {/* Dashboard*/}
       
       <div className='w-full items-center flex justify-center bg-[#eff1f1]'>
   <div className="flex max-[950px]:flex-col w-3/5 h-[35rem] max-[950px]:h-auto items-center justify-center max-[900px]:w-full bg">
     <div className="left pt-[2rem] flex flex-col gap-5 w-1/2 max-[950px]:w-full  h-[24rem] items-start max-[950px]:items-center max-[950px]:justify-start pl-3 justify-center max-[950px]:order-2">
-      <div className="banner flex w-[20rem] h-[2.2rem] bg-[#dfdfe0] pl-2">
-        <div className="left flex w-[16rem] max-[950px]:w-full">
-          <h1 className='text-xl font-bold pt-1'>K3 Pizza</h1>
-          <div data-aos="zoom-in" data-aos-duration="500" className='flex gap-3 pl-4'>
+      <div className="banner flex w-[23.5rem] h-[2.2rem] bg-[#dfdfe0] pl-2">
+        <div className="left flex w-[19rem] max-[950px]:w-full">
+          <h1 className='text-xl font-bold pt-2'>Dashboard</h1>
+          <div data-aos="zoom-in" data-aos-duration="500" className='flex gap-3 pl-4 justify-center items-center'>
             <FaReact className='text-[#00B9E8] text-2xl hover:scale-125 duration-200 ease-in-out mt-[5px]' />
             <RiTailwindCssFill className='text-cyan-400 text-2xl hover:scale-125 duration-200 ease-in-out mt-[5px]' />
-            <TbBrandRedux className='text-2xl hover:scale-125 duration-200 ease-in-out text-purple-600 mt-[5px]'/>
+            <SiExpress className='bg-white rounded-full p-1 text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
+            <FaNode className=' bg-white rounded-full p-1 text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
           </div>
         </div>
         <div className="diag k3diagonal w-[4rem] h-full"></div>
       </div>
-      <p className='max-[950px]:text-center px-4'>The Pizza Shop App is a ReactJS application that allows users to order pizzas effortlessly. It features a list of pizzas, a filter bar to search by toppings, detailed pages for each pizza, and a fully functional shopping cart for easy checkout. The app provides a smooth, user-friendly experience for ordering pizza.</p>
+      <p className='max-[950px]:text-center px-4 text-sm'>This app is a comprehensive multi-functional ReactJS application. It features: Weather App: Provides current temperature, precipitation chances, and other weather details using a sleek, intuitive interface.
+      News App: Fetches and displays the latest headlines, filtering for relevant articles with images, titles, and links to full stories.
+      Stock Price App: Tracks and displays real-time stock prices and company profiles, providing a useful dashboard for users to monitor financial data.
+      NASA Picture of the Day: Displays the daily image provided by NASA, complete with a detailed explanation and a link to view the full-resolution image.
+      The backend uses NodeJS and Express</p>
     </div>
     <div className="right  py-[1rem] flex flex-col w-1/2 max-[950px]:w-full h-[30rem] max-[950px]:h-[25rem] justify-center items-center max-[950px]:order-1">
     
       <div className='pizza  w-full h-[30rem] flex justify-center items-center group'>
         <div className="overlay  flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
             <div  className="view-live flex w-[7rem] h-[2rem]  bg-[#F2F3F4] justify-center items-center rounded-md transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-              <a  href="https://silca93.github.io/K3Pizza/"  target="_blank" 
+              <a  href="https://dashboard-frontend-ebld.onrender.com/"  target="_blank" 
                   rel="noopener noreferrer" className="view-live text-[#6F4E37]  text-xl transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">View Live</a>
             </div>
         </div>
@@ -284,7 +289,7 @@ export default function Projects() {
         </div>
         <div className="diag pkmdiagonal w-[4rem] h-full"></div>
       </div>
-      <p className='max-[950px]:text-center px-4'>Workout Pal is a fitness tracking app built with the MERN stack (<b>MongoDB, Express, React, and Node.js).</b> It helps users log their workouts, it's user-friendly interface allows you to create and account, login and get going. The app is hosted on render.com using the free tier service. Which might take up to <span className="text-red-500">30 seconds</span> to launch if you try signing up or loging in.</p>
+      <p className='max-[950px]:text-center px-4'>Workout Pal is a fullstack fitness app built with the MERN stack (<b>MongoDB, Express, React, and Node.js).</b> It helps users log their workouts, it's user-friendly interface allows you to create and account, login and get going. The app is hosted on render.com using the free tier service. Which might take up to <span className="text-red-500">30 seconds</span> to launch if you try signing up or loging in.</p>
     </div>
   </div>
 </div>
