@@ -173,7 +173,7 @@ export default function Projects() {
         </div>
         <div className="diag k3diagonal w-[4rem] h-full"></div>
       </div>
-      <p className='max-[950px]:text-center px-4 text-sm'>This app is a comprehensive multi-functional ReactJS application. It features: Weather App: Provides current temperature, precipitation chances, and other weather details using a sleek, intuitive interface.
+      <p className='max-[950px]:text-center pl-3 pr-7 text-sm'>This app is a comprehensive multi-functional ReactJS application. It features: Weather App: Provides current temperature, precipitation chances, and other weather details using a sleek, intuitive interface.
       News App: Fetches and displays the latest headlines, filtering for relevant articles with images, titles, and links to full stories.
       Stock Price App: Tracks and displays real-time stock prices and company profiles, providing a useful dashboard for users to monitor financial data.
       NASA Picture of the Day: Displays the daily image provided by NASA, complete with a detailed explanation and a link to view the full-resolution image.
