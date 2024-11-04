@@ -37,7 +37,7 @@ export default function Projects() {
     </div>
     <div className="right py-[1rem] flex flex-col w-1/2 max-[950px]:w-full h-[30rem] max-[950px]:h-[25rem] justify-center items-center max-[950px]:order-1">
     
-      <div className='benchmark w-full h-[30rem] flex justify-center items-center group '>
+      <div className='benchmark w-full h-[28rem] flex justify-center items-center group min-[900px]:rounded-xl min-[900px]:bg-cover'>
         <div className="overlay flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
             <div className="view-live flex w-[7rem] h-[2rem]  bg-[#F2F3F4] justify-center items-center rounded-md transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
               <a  href="https://silca93.github.io/Reflexes/"  target="_blank" 
@@ -58,7 +58,7 @@ export default function Projects() {
       <div className='w-full items-center flex justify-center'>
         <div className="flex max-[950px]:flex-col w-3/5 h-[35rem]  max-[950px]:h-auto items-center justify-center max-[900px]:w-full bg">
           <div className="left py-[1rem]   flex flex-col w-1/2 max-[950px]:w-full h-[30rem] max-[950px]:h-[25rem] justify-center items-center">
-            <div className='pwd  w-full h-[30rem] flex justify-center items-center group'>
+            <div className='pwd  w-full h-[25rem] flex justify-center items-center group  min-[900px]:rounded-xl min-[900px]:bg-cover'>
               <div className="overlay flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
                   <div className="view-live flex w-[7rem] h-[2rem]  bg-[#F2F3F4] justify-center items-center rounded-md transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
                     <a  href="https://silca93.github.io/PasswordGenerator/"  target="_blank" 
@@ -108,7 +108,7 @@ export default function Projects() {
     </div>
     <div className="right py-[1rem] flex flex-col w-1/2 max-[950px]:w-full h-[30rem] max-[950px]:h-[25rem] justify-center items-center max-[950px]:order-1">
     
-      <div className='shifumi w-full h-[30rem] flex justify-center items-center group'>
+      <div className='shifumi w-full h-[25rem] flex justify-center items-center group min-[900px]:rounded-xl min-[900px]:bg-cover'>
         <div className="overlay flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
             <div className="view-live flex w-[7rem] h-[2rem]  bg-[#F2F3F4] justify-center items-center rounded-md transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
               <a  href="https://silca93.github.io/ShiFuMi/"  target="_blank" 
@@ -127,12 +127,13 @@ export default function Projects() {
   <div className="flex max-[950px]:flex-col w-3/5 h-[35rem] max-[950px]:h-auto items-center justify-center max-[900px]:w-full bg">
     <div className="left py-[1rem]  flex flex-col w-1/2 max-[950px]:w-full h-[30rem] max-[950px]:h-[25rem] justify-center items-center">
      
-      <div className='country w-full h-[30rem] flex justify-center items-center group'>
+      <div className='country w-full h-[22rem] flex justify-center items-center group min-[900px]:rounded-xl min-[900px]:bg-cover'>
         <div className="overlay flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
             
             <div className="view-live flex w-[7rem] h-[2rem] border-[1px] border-black  bg-[#F2F3F4] justify-center items-center rounded-md transform translate-y-full group-hover:translate-y-0 transition-transform duration-300"> 
               <a  href="https://silca93.github.io/Countries_API/"  target="_blank" 
-                  rel="noopener noreferrer" className="view-live text-[#6F4E37]  text-xl transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">View Live</a>
+                  rel="noopener noreferrer" className="view-live text-[#6F4E37]  text-xl transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">View Live
+              </a>
             </div>
         </div>
       </div>
@@ -181,7 +182,7 @@ export default function Projects() {
     </div>
     <div className="right  py-[1rem] flex flex-col w-1/2 max-[950px]:w-full h-[30rem] max-[950px]:h-[25rem] justify-center items-center max-[950px]:order-1">
     
-      <div className='pizza  w-full h-[30rem] flex justify-center items-center group'>
+      <div className='pizza  w-full h-[22rem] flex justify-center items-center group min-[900px]:rounded-xl min-[900px]:bg-cover'>
         <div className="overlay  flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
             <div  className="view-live flex w-[7rem] h-[2rem]  bg-[#F2F3F4] justify-center items-center rounded-md transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
               <a  href="https://dashboard-frontend-ebld.onrender.com/"  target="_blank" 
@@ -201,7 +202,7 @@ export default function Projects() {
   <div className="flex  max-[950px]:flex-col w-3/5 h-[35rem] max-[950px]:h-auto items-center justify-center max-[900px]:w-full bg">
     <div className="left  py-[1rem]  flex flex-col w-1/2 max-[950px]:w-full h-[30rem] max-[950px]:h-[25rem] justify-center items-center">
     
-      <div className='pokemon  w-full h-[30rem] relative group'>
+      <div className='pokemon  w-full h-[22rem] relative group min-[900px]:rounded-xl min-[900px]:bg-cover'>
         <div className="overlay  flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
          <div  className="view-live flex w-[7rem] h-[2rem]  bg-[#F2F3F4] justify-center items-center rounded-md transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
             <a  href="https://silca93.github.io/PokemonBattle/"  target="_blank" 
@@ -246,8 +247,8 @@ export default function Projects() {
             </div>
             <p className='max-[950px]:text-center px-4'>The Book eShop is a NextJS application that offers a seamless shopping experience for book lovers. Utilizing modern NextJS routing and API features, the app provides dynamic content and fast navigation. It's fully responsive, ensuring a smooth experience across all devices. The app includes a login system, allowing users to create accounts, browse, and purchase books with ease.</p>
         </div>
-        <div className="right flex flex-col w-1/2 max-[950px]:w-full h-[30rem] max-[950px]:h-[25rem] justify-center items-center max-[950px]:order-1">
-            <div className='booked my-[1rem]  w-full h-[30rem] flex justify-center items-center group'>
+        <div className="right flex flex-col w-1/2 max-[950px]:w-full h-[25rem] max-[950px]:h-[25rem] justify-center items-center max-[950px]:order-1">
+            <div className='booked my-[1rem]  w-full h-[30rem] flex justify-center items-center group min-[900px]:rounded-xl min-[900px]:bg-cover'>
               <div className="overlay flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
                 <div  className="view-live flex w-[7rem] h-[2rem]  bg-[#F2F3F4] justify-center items-center rounded-md transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
                   <a  href="https://final-project-eric.vercel.app/"  target="_blank" 
@@ -266,7 +267,7 @@ export default function Projects() {
   <div className="flex  max-[950px]:flex-col w-3/5 h-[35rem] max-[950px]:h-auto items-center justify-center max-[900px]:w-full bg">
     <div className="left  py-[1rem]  flex flex-col w-1/2 max-[950px]:w-full h-[30rem] max-[950px]:h-[25rem] justify-center items-center">
     
-      <div className='workoutPal  w-full h-[30rem] relative group'>
+      <div className='workoutPal  w-full h-[22rem] relative group min-[900px]:rounded-xl min-[900px]:bg-cover'>
         <div className="overlay  flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
          <div  className="view-live flex w-[7rem] h-[2rem]  bg-[#F2F3F4] justify-center items-center rounded-md transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
             <a  href="https://workoutpal-frontend-axz7.onrender.com/"  target="_blank" 
