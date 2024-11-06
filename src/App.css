@@ -160,8 +160,8 @@ html {
   
 }
 
-.country {
-  background-image: url(./assets/images/country.png);
+.jobBoard {
+  background-image: url(./assets/images/jobBoard.png);
   background-position: center;
   background-size:contain;
   background-repeat: no-repeat;

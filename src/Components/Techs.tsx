@@ -21,6 +21,9 @@ import { SiPhp } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { FaNode } from "react-icons/fa6";
+import { SiVuedotjs } from "react-icons/si";
+
+
 
 
 
@@ -64,6 +67,8 @@ export default function () {
           <FaPython className='text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
           <SiDjango className='text-green-700 text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
           <FaReact className='text-[#00B9E8] text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
+          <SiVuedotjs className='text-green-600  text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
+
           <SiNextdotjs className='text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
           <SiPhp className='text-[#717dd5]  text-[2.3rem] hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
           <SiMongodb  className='text-[#39a746]  text-3xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />

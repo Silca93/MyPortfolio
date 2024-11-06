@@ -3,10 +3,12 @@ import { IoLogoCss3} from "react-icons/io5";
 import { SiJavascript, SiNextdotjs } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { TbBrandRedux } from "react-icons/tb";
-// import { DiMongodb } from "react-icons/di";
 import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { FaNode } from "react-icons/fa6";
+import { SiSqlite } from "react-icons/si";
+import { SiVuedotjs } from "react-icons/si";
+
 
 export default function Projects() {
   return (
@@ -127,11 +129,11 @@ export default function Projects() {
   <div className="flex max-[950px]:flex-col w-3/5 h-[35rem] max-[950px]:h-auto items-center justify-center max-[900px]:w-full bg">
     <div className="left py-[1rem]  flex flex-col w-1/2 max-[950px]:w-full h-[30rem] max-[950px]:h-[25rem] justify-center items-center">
      
-      <div className='country w-full h-[22rem] flex justify-center items-center group min-[900px]:rounded-xl min-[900px]:bg-cover'>
+      <div className='jobBoard w-full h-[22rem] flex justify-center items-center group min-[900px]:rounded-xl min-[900px]:bg-cover'>
         <div className="overlay flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-300">
             
             <div className="view-live flex w-[7rem] h-[2rem] border-[1px] border-black  bg-[#F2F3F4] justify-center items-center rounded-md transform translate-y-full group-hover:translate-y-0 transition-transform duration-300"> 
-              <a  href="https://silca93.github.io/Countries_API/"  target="_blank" 
+              <a  href="https://jobboard-frontend-h57b.onrender.com/"  target="_blank" 
                   rel="noopener noreferrer" className="view-live text-[#6F4E37]  text-xl transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">View Live
               </a>
             </div>
@@ -140,17 +142,19 @@ export default function Projects() {
      
     </div>
     <div className="right pt-[2rem] flex flex-col gap-5 w-1/2 max-[950px]:w-full h-[24rem]  items-start max-[950px]:items-center max-[950px]:justify-start pl-3 justify-center">
-      <div className="banner flex w-[20rem]  h-[2.2rem] bg-[#dfdfe0] pl-2">
-        <div className="left flex w-[16rem] max-[950px]:w-full">
-          <h1 className='text-xl font-bold pt-1'>Country API</h1>
-          <div data-aos="zoom-in" data-aos-duration="500" className='flex gap-3 pl-4'>
-            <FaReact className='text-[#00B9E8] text-2xl hover:scale-125 duration-200 ease-in-out mt-[5px]' />
-            <RiTailwindCssFill className='text-cyan-400 text-2xl hover:scale-125 duration-200 ease-in-out mt-[5px]' />
+      <div className="banner flex w-[23rem]  h-[2.2rem] bg-[#dfdfe0] pl-2">
+        <div className="left flex w-[19rem] max-[950px]:w-full">
+          <h1 className='text-xl font-bold pt-1'>Job Board</h1>
+          <div data-aos="zoom-in" data-aos-duration="500" className='flex gap-3 pl-4 items-center'>
+            <SiVuedotjs className='text-green-600 text-2xl hover:scale-125 duration-200 ease-in-out mt-[5px]' />
+            <SiSqlite className='text-blue-500 text-2xl hover:scale-125 duration-200 ease-in-out mt-[5px]'/>
+            <SiExpress className='bg-white rounded-full p-1 text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
+            <FaNode className=' bg-white rounded-full p-1 text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
           </div>
         </div>
         <div className="diag countrydiagonal w-[4rem] h-full"></div>
       </div>
-      <p className='max-[950px]:text-center px-4'>The Country Explorer App is a ReactJS application that fetches real-time data for all the countries in the world using a free online API. Users can explore detailed information about each country, including population, capital, and languages. With React Router, the app allows smooth navigation between different pages, such as country details and search.</p>
+      <p className='max-[950px]:text-center px-4'>Your Vue.js app is a job board tailored for Vue developers and employers. Developers can browse a variety of Vue-related job offers, while employers can post, edit, and delete job listings. Developed with VueJS and Vue RouterLink, the backend is powered by Node.js and Express, utilizing REST APIs, and the app stores data in an SQLite database.</p>
     </div>
   </div>
 </div>
@@ -170,6 +174,7 @@ export default function Projects() {
             <RiTailwindCssFill className='text-cyan-400 text-2xl hover:scale-125 duration-200 ease-in-out mt-[5px]' />
             <SiExpress className='bg-white rounded-full p-1 text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
             <FaNode className=' bg-white rounded-full p-1 text-2xl hover:scale-125 duration-200 ease-in-out max-[800px]:text-xl' />
+         
           </div>
         </div>
         <div className="diag k3diagonal w-[4rem] h-full"></div>
