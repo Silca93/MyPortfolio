@@ -154,7 +154,7 @@ export default function Projects() {
         </div>
         <div className="diag countrydiagonal w-[4rem] h-full"></div>
       </div>
-      <p className='max-[950px]:text-center px-4'>Your Vue.js app is a job board tailored for Vue developers and employers. Developers can browse a variety of Vue-related job offers, while employers can post, edit, and delete job listings. Developed with VueJS and Vue RouterLink, the backend is powered by Node.js and Express, utilizing REST APIs, and the app stores data in an SQLite database.</p>
+      <p className='max-[950px]:text-center px-4'>Your Vue.js app is a job board tailored for Vue developers and employers. Developers can browse a variety of Vue-related job offers, while employers can post, edit, and delete job listings. Developed with VueJS and Vue RouterLink, the backend is powered by Node.js and Express, utilizing REST APIs, and the app stores data in an SQLite database. The server might take up to <span className="text-red-500 font-semibold">90 seconds</span> to display job data if the server was asleep.</p>
     </div>
   </div>
 </div>
@@ -295,7 +295,7 @@ export default function Projects() {
         </div>
         <div className="diag pkmdiagonal w-[4rem] h-full"></div>
       </div>
-      <p className='max-[950px]:text-center px-4'>Workout Pal is a fullstack fitness app built with the MERN stack (<b>MongoDB, Express, React, and Node.js).</b> It helps users log their workouts, it's user-friendly interface allows you to create and account, login and get going. The app is hosted on render.com using the free tier service. Which might take up to <span className="text-red-500">30 seconds</span> to launch if you try signing up or loging in.</p>
+      <p className='max-[950px]:text-center px-4'>Workout Pal is a fullstack fitness app built with the MERN stack (<b>MongoDB, Express, React, and Node.js).</b> It helps users log their workouts, it's user-friendly interface allows you to create and account, login and get going. The app is hosted on render.com using the free tier service. Which might take up to <span className="text-red-500 font-semibold">90 seconds</span> to launch if you try signing up or loging in.</p>
     </div>
   </div>
 </div>
